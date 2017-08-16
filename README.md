@@ -2,6 +2,8 @@ Simple base project with gulp build using Sass (no Babel)
 
 1. Download or clone project
 2. Run `npm install`
+3. Run `gulp` to concat/minify .js and .scss files and to watch files while browser-synching
+4. Run `gulp images` to minify images
 
 # Resources
 * [Sass Documentation](http://sass-lang.com/)
