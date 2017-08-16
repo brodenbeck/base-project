@@ -1,0 +1,21 @@
+$background: lime;
+
+html,
+body {
+
+    height: 100vh;
+}
+
+body {
+
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+
+        width: 99%;
+        margin: 10px auto;
+    }
+}
