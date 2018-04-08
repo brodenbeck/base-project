@@ -1,19 +1,20 @@
 const path = require('path');
 
 module.exports = {
+  context: path.resolve(__dirname, '../src'),
   entry: {
-    app: "./src/js/main.js"
+    app: path.resolve(__dirname, "../src/js/main.js")
   },
   output: {
     filename: "[name].js",
-    path: path.resolve(__dirname, "public")
+    path: path.resolve(__dirname, "../public"),
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        include: path.join(__dirname, 'src'),
+        include: path.join(__dirname, "src"),
         loader: [
           {
             loader: "babel-loader",

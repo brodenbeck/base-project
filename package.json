@@ -6,10 +6,10 @@
     "type": "git",
     "url": "https: //github.com/brodenbeck/base-project"
   },
-  "main": "src/js/main.js",
+  "main": "src/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --config build/webpack.config.js"
   },
   "author": "Britta Rodenbeck",
   "license": "ISC",
